@@ -1,0 +1,28 @@
+# Computer Vision & Gesture Recognition
+opencv-python
+mediapipe>=0.10.0
+numpy
+pyautogui
+
+# Web Framework & API
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# Authentication & Security
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+
+# Environment & Config
+python-dotenv>=1.0.0
+
+# Voice Recognition
+SpeechRecognition>=3.10.0
+PyAudio>=0.2.11  # Required for microphone access
+pyvirtualcam>=0.1.0
+
+# Optional: Redis for rate limiting / session stores
+redis>=4.5.0
+
+# Optional: offline speech (pocketsphinx - slower but works without internet)
+# pocketsphinx>=0.1.15
